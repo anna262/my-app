@@ -1,20 +1,20 @@
 import React from "react";
-
-import Search from "./Search";
-import "./styles.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather Search Engine</h1>
-      <footer />
-     This project is created
-       
-          <a href="https://github.com/anna262/my-app" target="“blank”
-            >Open-source code</a
-          >
+      <div className="container">
+        <Weather defaultCity="Dublin" />
+        <footer>
+          This project is created by{" "}
+          <a href="https://github.com/anna262/my-app">
+            Open-source code on GitHub
+          </a>
           by Anna Szczek
-      <footer />
-    <div/>
+        </footer>
+      </div>
+    </div>
   );
+}
 
