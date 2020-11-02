@@ -17,7 +17,11 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
+<<<<<<< HEAD
       city: response.data.name,
+=======
+      city: response.data.name
+>>>>>>> 243b74def1434d6782487b139be9b5c295efaf25
     });
   }
 
